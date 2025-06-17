@@ -8,7 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- IMPORTANT: REPLACE THIS WITH YOUR N8N WEBHOOK URL ---
     // Get this from your active N8n workflow's Webhook node.
     // It will look like: http://localhost:5678/webhook/generate-image
-    const N8N_WEBHOOK_URL = 'https://primary-production-9b05.up.railway.app/webhook/generate-image'; 
+   // const N8N_WEBHOOK_URL = 'https://primary-production-9b05.up.railway.app/webhook/generate-image'; 
+
+const N8N_WEBHOOK_URL = 'https://primary-production-9b05.up.railway.app/webhook-test/generate-image';
     // --- END IMPORTANT ---
 
     generateBtn.addEventListener('click', generateImage);
